@@ -226,6 +226,8 @@ Resources:
       Tags:
         - Key: Name
           Value: TEST-DBInstance
+        - Key: Owner
+          Value: "Mouad-Lousimi"
 
   CodeDeployRole: 
     Type: "AWS::IAM::Role"
